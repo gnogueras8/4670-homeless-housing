@@ -1,0 +1,43 @@
+---
+title: "data-day1"
+author: "Econ Research Group"
+date: "February 20, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(reticulate)
+use_python("C:\\Python27\\python.exe")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+multi_family_data <-  read.csv("multi-family-housing.csv")
+View(multi_family_data)
+
+multi_change <- 1184 - 732
+multi_change
+
+all_homes_data <- read.csv("all-homes-data.csv")
+View(all_homes_data)
+
+all_homes_change <- 1435 - 1112
+all_homes_change
+```
+
+$$ \widehat{hpop} = \hat{b} NumB + \hat{b}medWage + \hat{b}medRent + \hat{b}households $$  
+//Todo: pull january as obs
+//todo: attach census/state pop count
+
+Multi-Family Difference: `r multi_change` &nbsp
+All Homes Difference: `r all_homes_change`
+
+```{r}
+homeless_data <- read.csv("")
+
+```
+
+//Todo: California, New York, and Utah on their Own
+
+
+
