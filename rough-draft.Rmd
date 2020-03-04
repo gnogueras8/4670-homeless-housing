@@ -44,6 +44,9 @@ View(homeless_data)
 
 ```
 
+$$ \widehat{hpop} = \hat{b}U6 + \hat{b}AvgRent + \hat{b}PCTdisc + \hat{b}pctinv + \hat{b}TotPop $$
+$$ \widehat{PCThmlsofciv} = \hat{b}U6 + \hat{b}AvgRent + \hat{b}PCTdisc + \hat{b}pctinv + \hat{b}TotPop $$
+
 //Todo: California, New York, and Utah on their Own
 
 
