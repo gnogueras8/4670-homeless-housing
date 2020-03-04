@@ -33,8 +33,7 @@ all_homes_change <- 1435 - 1112
 all_homes_change
 ```
 
-$$ \widehat{hpop} = \hat{b} NumB + \hat{b}medWage + \hat{b}medRent + \hat{b}households $$  
-
+## Difference between multi-family homes and All homes
 Multi-Family Difference: `r multi_change` <br/>
 All Homes Difference: `r all_homes_change`
 
@@ -44,10 +43,12 @@ View(homeless_data)
 
 ```
 
+## Equation Ideas
 $$ \widehat{hpop} = \hat{b}U6 + \hat{b}AvgRent + \hat{b}PCTdisc + \hat{b}pctinv + \hat{b}TotPop $$
 $$ \widehat{PCThmlsofciv} = \hat{b}U6 + \hat{b}AvgRent + \hat{b}PCTdisc + \hat{b}pctinv + \hat{b}TotPop $$
 
 //Todo: California, New York, and Utah on their Own
 
-
+## Equation from Jan:
+$$ \widehat{PCThmlsofciv} = \hat{b}u3 + \hat{b}pctdisc + \hat{b}pctinv $$
 

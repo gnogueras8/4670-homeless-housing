@@ -394,11 +394,21 @@ View(all_homes_data)
 all_homes_change &lt;- 1435 - 1112
 all_homes_change</code></pre>
 <pre><code>## [1] 323</code></pre>
-<p><span class="math display">\[ \widehat{hpop} = \hat{b} NumB + \hat{b}medWage + \hat{b}medRent + \hat{b}households \]</span></p>
+<div id="difference-between-multi-family-homes-and-all-homes" class="section level2">
+<h2>Difference between multi-family homes and All homes</h2>
 <p>Multi-Family Difference: 452 <br /> All Homes Difference: 323</p>
 <pre class="r"><code>homeless_data &lt;- read.csv(&quot;final_data.csv&quot;)
 View(homeless_data)</code></pre>
+</div>
+<div id="equation-ideas" class="section level2">
+<h2>Equation Ideas</h2>
+<p><span class="math display">\[ \widehat{hpop} = \hat{b}U6 + \hat{b}AvgRent + \hat{b}PCTdisc + \hat{b}pctinv + \hat{b}TotPop \]</span> <span class="math display">\[ \widehat{PCThmlsofciv} = \hat{b}U6 + \hat{b}AvgRent + \hat{b}PCTdisc + \hat{b}pctinv + \hat{b}TotPop \]</span></p>
 <p>//Todo: California, New York, and Utah on their Own</p>
+</div>
+<div id="equation-from-jan" class="section level2">
+<h2>Equation from Jan:</h2>
+<p><span class="math display">\[ \widehat{PCThmlsofciv} = \hat{b}u3 + \hat{b}pctdisc + \hat{b}pctinv \]</span></p>
+</div>
 
 
 
