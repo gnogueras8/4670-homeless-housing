@@ -7,9 +7,17 @@ output: html_document
 
 ```{r setup, include=FALSE}
 library(reticulate)
+library(gitignore)
 use_python("C:\\Python27\\python.exe")
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+```{r include=FALSE}
+#git setup
+
+gi_fetch_templates("R")
+```
+
 
 ```{r}
 multi_family_data <-  read.csv("multi-family-housing.csv")
@@ -26,14 +34,13 @@ all_homes_change
 ```
 
 $$ \widehat{hpop} = \hat{b} NumB + \hat{b}medWage + \hat{b}medRent + \hat{b}households $$  
-//Todo: pull january as obs
-//todo: attach census/state pop count
 
-Multi-Family Difference: `r multi_change` &nbsp
+Multi-Family Difference: `r multi_change` <br/>
 All Homes Difference: `r all_homes_change`
 
 ```{r}
-homeless_data <- read.csv("")
+homeless_data <- read.csv("final_data.csv")
+View(homeless_data)
 
 ```
 
