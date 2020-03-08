@@ -38,6 +38,7 @@ Multi-Family Difference: `r multi_change` <br/>
 All Homes Difference: `r all_homes_change`
 
 ```{r}
+#data combined with Jan's Data
 homeless_data <- read.csv("final_data.csv")
 View(homeless_data)
 
@@ -51,4 +52,15 @@ $$ \widehat{PCThmlsofciv} = \hat{b}U6 + \hat{b}AvgRent + \hat{b}PCTdisc + \hat{b
 
 ## Equation from Jan:
 $$ \widehat{PCThmlsofciv} = \hat{b}u3 + \hat{b}pctdisc + \hat{b}pctinv $$
+```{r}
+housing_supply <- read.csv("Annual_housing_supply_by_state.csv")
+View(housing_supply)
+housing_supply_t <- t(housing_supply)
+View(housing_supply_t)
 
+```
+
+```{python}
+
+
+```
