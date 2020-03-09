@@ -24,5 +24,6 @@ gini: Gini Coefficient.<br/>
 pctcrime: Percentage of crime?<br/>
 crime: Total crimes committed.<br/>
 Houseing_Supply: Total number of housing units.<br/>
-CPI	State: CPI by region number applied to each state.<br/>
+CPI: CPI by region number applied to each state.<br/>
+State: The state of the observation. (does not include territories of U.S.) 
 
