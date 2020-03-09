@@ -6,23 +6,23 @@ Jan Otrusinik, Daniel Christensen, Jessica Wolford, Nathan Allen, Hadley Bringhu
 
 ## Variables
 
-Region_ID: Region of the state (West = 1, Midwest = 2, South = 3, Northeast	= 4) <br\>
-Rent: Average cost of rent by state from the Zillow API.	
-Year:	Year of the observation.
-Total_Homeless: Point in time count of homeless population. 	
-U1:	
-U2:	
-U3:	
-U4:	
-U5:	
-U6:	
-pctdisc: Percentage of discouraged workers.	
-pctinv: Percentage of involuntary part-time workers.	
-Civilian: Civilian population.
-pcthmlsofciv: Percentage homeless of the Civilian population.	
-gini: Gini Coefficient.
-pctcrime: Percentage of crime?
-crime: Total crimes committed.
-Houseing_Supply: Total number of housing units.
-CPI	State: CPI by region number applied to each state.
+Region_ID: Region of the state (West = 1, Midwest = 2, South = 3, Northeast	= 4) <br/>
+Rent: Average cost of rent by state from the Zillow API.<br/>	
+Year:	Year of the observation.<br/>
+Total_Homeless: Point in time count of homeless population.<br/> 	
+U1:<br/>	
+U2:<br/>	
+U3:<br/>
+U4:<br/>
+U5:<br/>
+U6:<br/>
+pctdisc: Percentage of discouraged workers.<br/>	
+pctinv: Percentage of involuntary part-time workers.<br/>	
+Civilian: Civilian population.<br/>
+pcthmlsofciv: Percentage homeless of the Civilian population.<br/>
+gini: Gini Coefficient.<br/>
+pctcrime: Percentage of crime?<br/>
+crime: Total crimes committed.<br/>
+Houseing_Supply: Total number of housing units.<br/>
+CPI	State: CPI by region number applied to each state.<br/>
 
