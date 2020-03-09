@@ -6,7 +6,7 @@ Jan Otrusinik, Daniel Christensen, Jessica Wolford, Nathan Allen, Hadley Bringhu
 
 ## Variables
 
-Region_ID: Region of the state (West = 1, Midwest = 2, South = 3, Northeast	= 4)
+Region_ID: Region of the state (West = 1, Midwest = 2, South = 3, Northeast	= 4) <br\>
 Rent: Average cost of rent by state from the Zillow API.	
 Year:	Year of the observation.
 Total_Homeless: Point in time count of homeless population. 	
