@@ -6,10 +6,6 @@ This is a temporary script file.
 """
 
 import pandas as pd
-import numpy as np
-import xgboost as xgb
-from sklearn.preprocessing import OneHotEncoder
-
 
 data = pd.read_csv('../final_data.csv')
 
@@ -24,5 +20,3 @@ data.drop(['Year'], axis=1, inplace=True)
 print(data.columns)
 
 data.to_csv('../final_data_dummy.csv',index=False)
-#enc = OneHotEncoder(handle_unknown='ignore')
-#enc.fit(data[])
