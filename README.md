@@ -25,5 +25,5 @@ Jan Otrusinik, Daniel Christensen, Jessica Wolford, Nathan Allen, Hadley Bringhu
 **crime**: Total crimes committed.<br/>
 **Houseing_Supply**: Total number of housing units.<br/>
 **CPI**: CPI by region number applied to each state.<br/>
-**State**: The state of the observation. (does not include territories of U.S.) 
-
+**State**: The state of the observation. (does not include territories of U.S.)<br/>
+**lowwagesreal**: The average of the 25th percentile wages of the lowest five NAICS major occupation groups by wage per state and year of the observation. Real wages using **CPI**.
